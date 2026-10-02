@@ -1,0 +1,12 @@
+{
+  "name": "painel-pendencias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Painel de pendências por cliente (Movimento Estratégico)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && npx serve public"
+  },
+  "engines": { "node": ">=18" }
+}
